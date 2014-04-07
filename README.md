@@ -2,11 +2,11 @@
 
 A simple tool to get at the account transactions for a single account in a given ledger.
 
-   client = new Client('http://ec2-54-82-34-97.compute-1.amazonaws.com:5005');
+    client = new Client('http://ec2-54-82-34-97.compute-1.amazonaws.com:5005');
 
-   client.accountTx('r4EwBWxrx5HxYRyisfGzMto3AT8FZiYdWk', 5939246, function(err, response) {
-     console.log(response); 
-   });
+    client.accountTx('r4EwBWxrx5HxYRyisfGzMto3AT8FZiYdWk', 5939246, function(err, response) {
+      console.log(response); 
+    });
 
 Output:
 
